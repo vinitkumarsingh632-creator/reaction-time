@@ -23,8 +23,36 @@
 .test{
     align-self: flex-start;
     font-family: "Black Ops One";
+    transform: rotate(180deg);
+    
 }
 .reaction{
     font-family: Creepster;
     text-shadow: 2px 0px 10px rgb(255, 89, 0);
+}
+#mainSection{
+    background: #f9f6f651;
+    height: 60vh;
+    width: 70vw;
+    border-radius: 20px;
+}
+main{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    padding-top: 5rem;
+}
+#impHeading{
+    font-family: "Archivo Black";
+    color: rgba(244, 245, 244, 0.77);
+    
+}
+#whyImpSection{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 2rem;
+    padding:2rem;
+    color: rgba(19, 19, 6, 0.541);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
