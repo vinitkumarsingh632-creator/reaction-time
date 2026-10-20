@@ -48,6 +48,7 @@ document.getElementById('click').addEventListener('click',()=>{
           document.getElementById('message').textContent = message
         document.getElementById('score').textContent = `${reaction}ms`
         document.getElementById('scoreContainer').style.display = 'block'
+        document.getElementById('retry').style.display = 'block'
         started = false
     }
 })

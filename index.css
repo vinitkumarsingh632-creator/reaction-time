@@ -63,3 +63,6 @@ main{
 #rules{
     display: none;
 }
+svg{
+    size: 10rem;
+}
