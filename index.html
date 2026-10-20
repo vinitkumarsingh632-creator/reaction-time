@@ -19,7 +19,7 @@
             <h2 style="padding-top: 3rem;text-align: center;padding-bottom: 3rem;font-size: 3rem;" id="impHeading">Why Is This Important</h2>
             <div id="whyImpSection">
                 <p class="text">In our daily life, we often encounter ghost. Most of them are harmless but some are very dangerous and harmful. They have lots of powers and they are super strong, so we cannot fight with them and defeat them.</p>
-            <p>But as per the <abbr title="Ghost and Spirit Research Organisation">GSRO</abbr> (Ghost and Spirit Research Organisation), we cannot fight with them but we can save ourself from their attack. In order or protect ourself from ghost attack, we must have a reaction time of more than 500ms.</p>
+            <p>But as per the <abbr title="Ghost and Spirit Research Organisation">GSRO</abbr> (Ghost and Spirit Research Organisation), we cannot fight with them but we can save ourself from their attack. In order or protect ourself from ghost attack, we must have a reaction time of less than 500ms.</p>
             </div>
             <div style="text-align: center;font-size: 3rem;padding: 0.5rem;background-color: rgba(255, 166, 0, 0.583);border-radius: 20px;color: white;cursor: pointer;" id="startTest">Start Test</div>
         </section>
@@ -28,7 +28,7 @@
     <div id="rules" style="display: none;position: absolute;justify-content: center;align-items: center;height: 100vh;width: 100vw;top: 0%;flex-direction: column;gap: 2rem;">
           <div style="display: flex;flex-direction: column;width: 30%;gap: 2rem;background-color: rgba(255, 255, 255, 0.317);padding: 0.5rem;border-radius: 20px;">
             <h2 style="font-size: 4rem;font-family: creepster;text-align: center;text-shadow: 2px 0px 10px orange;">Before You Begin</h2>
-          <p style="font-size: 2rem;text-align: center;" id="rulesText">Click the button, when the object turn green.</p>
+          <p style="font-size: 2rem;text-align: center;" id="rulesText">Click the DONE button, when the object turn green.</p>
           <div style="text-align: center;padding: 0.5rem;border-radius: 20px;padding-top: 1rem;font-size: 2.5rem;background-color: orange;color: white;cursor: pointer;" id="gotIt">Got It</div>
         </div>
           
@@ -45,6 +45,11 @@
                 DONE
                </div>
               </div>
+     </div>
+     <div id="scoreContainer" style="height: 20vh;width: 30vw;background-color: rgba(255, 0, 0, 0.419);border-radius: 20px;padding: 0.5rem;display: none;position: absolute;left: 30%;top: 20%;">
+        <h2 style="text-align: center;font-size: 3rem;padding-top: 1rem;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;color: white;">Score</h2>
+          <div id="score" style="text-align: center;font-size: 2rem;padding-top: 1rem;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;color: white;"></div>
+          <div id="message"  style="text-align: center;font-size: 2rem;padding-top: 1rem;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;color: white;"></div>
      </div>
               
     <script src="./index.js"></script>

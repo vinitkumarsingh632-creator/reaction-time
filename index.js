@@ -30,7 +30,24 @@ document.getElementById('gotIt').addEventListener('click',()=>{
 document.getElementById('click').addEventListener('click',()=>{
     if(started == true){
         const reaction = Date.now() - elapsed
-        console.log(reaction)
+        let color;
+        let message;
+        if(reaction < 500){
+             color = 'green'
+             message = "You are safe"
+        }
+        else if(reaction > 500){
+           color = 'red'
+           message = 'Leave This Planet asap'
+        }
+        else if(reaction == 500){
+            color = 'yellow'
+            message = 'You are ghost'
+        }
+         document.getElementById('scoreContainer').style.backgroundColor = color
+          document.getElementById('message').textContent = message
+        document.getElementById('score').textContent = `${reaction}ms`
+        document.getElementById('scoreContainer').style.display = 'block'
         started = false
     }
 })
