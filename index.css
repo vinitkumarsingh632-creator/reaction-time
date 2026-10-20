@@ -8,8 +8,23 @@
     width: 100vw;
     position: absolute;
     z-index: -1;
+    filter: brightness(0.4);
 }
-#header{
-    position: relative;
-    
+.mainHeading{
+    display: flex;
+    font-size: 4rem;
+    color: wheat;
+    gap: 2rem;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 3rem;
+    font-family: "poppins";
+}
+.test{
+    align-self: flex-start;
+    font-family: "Black Ops One";
+}
+.reaction{
+    font-family: Creepster;
+    text-shadow: 2px 0px 10px rgb(255, 89, 0);
 }
