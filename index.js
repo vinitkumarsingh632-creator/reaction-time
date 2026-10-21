@@ -11,7 +11,9 @@ document.getElementById('gotIt').addEventListener('click',()=>{
     
     const interval = setInterval(()=>{
          if(counting > 3) {
+            counting = 1
             document.getElementById('counting').style.display = 'none'
+            document.getElementById('counting').textContent = ""
             clearInterval(interval)
             const second = ((Math.random()*5) +2)*1000
             setTimeout(()=>{
@@ -22,8 +24,11 @@ document.getElementById('gotIt').addEventListener('click',()=>{
             },second)
 
         }
-        document.getElementById('counting').textContent = counting
+        else{
+            document.getElementById('counting').textContent = counting
+        console.log(counting)
         counting++
+        }
        
     },1000)
 })
@@ -53,3 +58,32 @@ document.getElementById('click').addEventListener('click',()=>{
     }
 })
 
+document.getElementById('retry').addEventListener('click',()=>{
+    document.getElementById('scoreContainer').style.display = 'none'
+    document.getElementById('retry').style.display = 'none'
+    document.getElementById('circle').style.backgroundColor = 'blue'
+    document.getElementById('counting').style.display = 'block'
+    counting = 1
+     const interval = setInterval(()=>{
+         if(counting > 3) {
+            counting = 1
+            document.getElementById('counting').style.display = 'none'
+             document.getElementById('counting').textContent = ""
+            clearInterval(interval)
+            const second = ((Math.random()*5) +2)*1000
+            setTimeout(()=>{
+                 elapsed = Date.now()
+                document.getElementById('circle').style.backgroundColor = 'green'
+                started = true
+               
+            },second)
+
+        }
+        else{
+            document.getElementById('counting').textContent = counting
+        console.log(counting)
+        counting++
+        }
+       
+    },1000)
+})
