@@ -1,6 +1,7 @@
 document.getElementById('startTest').addEventListener('click',()=>{
     document.getElementsByTagName('main')[0].style.display = 'none'
     document.getElementById('rules').style.display = 'flex'
+    document.getElementById('audio').play()
 })
 let counting = 1;
 let elapsed;
