@@ -30,7 +30,7 @@ I have used only HTML, CSS and JS.
 
 - Bg Image: https://wallpapercave.com/wp/EPyuR6y.jpg
 - Fonts: Google Fonts
-- BG Sound: This is an old audio that was already present on my system.
+- BG Sound: This is an old audio that was already present on my system. But I have downloaded it from from google.
 
 ## To Try It
 
