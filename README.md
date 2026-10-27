@@ -26,6 +26,11 @@ It don't have much features, it just have a spooky message in home page. Then a 
 
 I have used only HTML, CSS and JS.
 
+## Assets
+
+- Bg Image: https://wallpapercave.com/wp/EPyuR6y.jpg
+- Fonts: Google Fonts
+
 ## To Try It
 
 Click Here, [Reaction Time Checker](https://reaction-time-theta.vercel.app/)
